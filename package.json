@@ -4,7 +4,6 @@
   "description": "Hello World!",
   "main": "main.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
     "start": "nodemon app.js",
     "electron": "electron-forge start",
     "winpackage": "electron-packager . مقرأتي --platform=win32 --arch=x64 --overwrite --app-version=1.0.0 --build-version=1.0.0 --win32metadata.ProductName=مقرأتي --FileDescription=مقرأتي --appname=مقرأتي --win32metadata.CompanyName=ng --app-copyright=ng --icon=dist/maqraaty_2/browser/favicon.ico",
